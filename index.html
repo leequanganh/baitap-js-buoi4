@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="bai1">
+      <h1>SĂP XẾP 3 SỐ THEO THỨ TỰ TĂNG DẦN</h1>
+      <input id="a" type="number" placeholder="nhập số thứ nhất">
+      <input id="b" type="number" placeholder="nhập số thứ hai">
+      <input id="c" type="number" placeholder="nhập số thứ ba">
+      <button onclick="sapXep()" id="btnb1">Kết quả</button>
+
+        
+    </div>
+    <!-- ///bai2/// -->
+    <div class="chaohoi">
+        <h1>CHÀO HỎI</h1>
+        <h2>xin moi chon nguoi dung</h2>
+        <label for="bo"> bố</label>
+        <input id="bo" type="radio" name="thanhvien"  value="bo" >
+        <br>
+        <label for="me">mẹ</label>
+        <input id="me" type="radio" name="thanhvien" value="me">
+        <br>
+        <label for="anhtrai" >anh trai</label>
+        <input id="anhtrai" type="radio" name="thanhvien" value="anh trai" ></input>
+        <br>
+        <label for="emgai" >em gai</label>
+        <input id="emgai" type="radio" name="thanhvien"  value="em gai"></input>
+        <br>
+        <br>
+        <button onclick="chaoHoi()" >submit</button>
+        <br>
+        <!-- //// -->
+        <div id="chaohoi">
+            <h2 >chao hoi2</h2>
+            <input id="nguoidung"  type="text" placeholder="nhap nguoi dung">
+            <br>
+            <label for="nguoidung">
+                <span>b:bo</span><br>
+                <span>m:me</span> <br>
+                <span>a:anh trai</span><br>
+                <span>e:em gai</span>
+            </label>
+            <br>    
+            <button onclick="chaoHoi2()">submit</button>
+            <h3></h3>
+        </div>
+    </div>
+    <!-- ///bai3/// -->
+    <div>
+        <h1>ĐẾM CHẴN LẺ</h1>
+        <input id="soThuNhat" type="nummer" placeholder="so nguyen  thu nhat">
+        <input id="soThuHai" type="nummer" placeholder="so nguyen  thu hai">
+        <input id="soThuBa" type="nummer" placeholder="so nguyen  thu ba">
+        <br>
+        <button onclick="demChanle()">submit</button>
+    </div>
+    <!-- ///bai4 -->
+    <div style="margin-top: 100px;">
+        <h1>NHẬP 3 CẠNH CỦA TAM GIÁC</h1>
+        <input id="canhA" type="number" placeholder="canh thu nhat">
+        <input id="canhB" type="number" placeholder="canh thu hai">
+        <input id="canhC" type="number" placeholder="canh thu ba"><br>
+        <button onclick="xacDinhTamGiac()">submit</button>
+
+    </div>
+    <script src="./bai1.js"></script>
+    <script src="./bai2.js"></script>
+    <script src="./bai3.js"></script>
+    <script src="./bai4.js"></script>
+    <script src="./bai5.js"></script>
+    
+    
+</body>
+</html>
